@@ -4549,6 +4549,15 @@ input[type=button].btn-block {
   white-space: nowrap;
 }
 
+.icon_img_cresi {
+  margin-left: 160px;
+  width: 90px;
+  height: 75.875px;
+}
+
+
+
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
