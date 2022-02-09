@@ -4604,6 +4604,7 @@ input[type=button].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  margin-left:50%;
 }
 
 .navbar-toggler:hover,
