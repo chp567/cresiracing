@@ -11619,3 +11619,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+#maps{
+  max-width: 100%;
+  height: auto;
+  background-image: url("google_earth.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
