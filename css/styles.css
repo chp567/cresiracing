@@ -11621,11 +11621,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #maps{
-  max-width: 100%;
-  height: auto;
+  max-width: 1354px;
+  max-height: 656px;
   background-image: url("google_earth.PNG");
-  background-size: cover;
   background-repeat: no-repeat;
+  /*background-size: 100%;*/
 }
 
 #maps .js-scroll-trigger{
@@ -11633,27 +11633,27 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .map-5 {
-  position: static;
-  padding-left: 420px;
-  padding-top: 410px;
+  margin-left: 285px;
+  margin-top: 250px;
 }
 
 .map-2 {
-  padding-left: 1184px;
-  padding-top: 60px;
+  padding-left: 810px;
+  padding-top: 30px;
 }
 
 .map-3 {
-  padding-left: 950px;
+  padding-left: 680px;
   padding-top: 0px;
 }
-
+/*
 .map-4 {
-  padding-left: 440px;
+  padding-left: 300px;
   padding-top: 0px;
-}
+}*/
 
 .map-1 {
-  padding-left: 1095px;
-  padding-top: 50px;
+  position: static;
+  padding-left: 770px;
+  padding-top: 40px;
 }
