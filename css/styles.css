@@ -11627,3 +11627,33 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+#maps .js-scroll-trigger{
+  padding-left: 85%;
+}
+
+.map-5 {
+  position: static;
+  padding-left: 420px;
+  padding-top: 410px;
+}
+
+.map-2 {
+  padding-left: 1184px;
+  padding-top: 60px;
+}
+
+.map-3 {
+  padding-left: 950px;
+  padding-top: 0px;
+}
+
+.map-4 {
+  padding-left: 440px;
+  padding-top: 0px;
+}
+
+.map-1 {
+  padding-left: 1095px;
+  padding-top: 50px;
+}
