@@ -1,17 +1,18 @@
 ---
 import Container from "@components/container.astro";
+import { Picture } from "@astrojs/image/components";
 import Link from "@components/ui/link.astro";
 import Dropdown from "./dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import Logos from "../../assets/logo_officiel_sansfond (1).png";
 
 const menuitems = [
-<<<<<<< HEAD
     {
     title: "Événements",
     path: "/events",
   },
   {
-    title: "Qui sommes nous",
+    title: "Qui sommes nous ?",
     path: "/about",
   },
   {
@@ -21,55 +22,31 @@ const menuitems = [
   {
     title: "Objectifs",
     path: "/objectifs",
-=======
-  {
-    title: "Features",
-    path: "#",
-    children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
-    ],
   },
+
   {
-    title: "Pricing",
-    path: "/pricing",
+    title: "News",
+    path: "/news",
   },
-  {
-    title: "About",
-    path: "/about",
-  },
-  {
-    title: "Blog",
-    path: "/blog",
->>>>>>> parent of 73a03d3 (push 1 : title + phot et description)
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-  },
-  {
-<<<<<<< HEAD
-    title: "Contacts",
-    path: "/contacts",
-=======
-    title: "Pro Version",
-    badge: true,
-    path: "https://astroship-pro.web3templates.com/",
->>>>>>> parent of 73a03d3 (push 1 : title + phot et description)
-  },
-];
+
+                                           
+];                                                                          
 ---
 
 <Container>
-  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5 h-50">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Astro</span><span
-            class="text-slate-500">ship</span
-          >
+        <a href="/" class="text-lg max-h-full py-4 h-50"
+          ><Picture
+          src={Logos}
+          alt="Astronaut in the air"
+          widths={[200, 400, 600]}
+          aspectRatio="4:3"
+          sizes="(max-width: 800px) 100vw, 80px"
+          loading="eager"
+          format="avif"
+        />
         </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
@@ -80,13 +57,7 @@ const menuitems = [
           {
             menuitems.map((item, index) => (
               <>
-                {item.children && (
-                  <Dropdown
-                    title={item.title}
-                    children={item.children}
-                    lastItem={index === menuitems.length - 1}
-                  />
-                )}
+
 
                 {!item.children && (
                   <li>

@@ -198,34 +198,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"Event": {
-"complete-guide-fullstack-development.md": {
-	id: "complete-guide-fullstack-development.md";
-  slug: "complete-guide-fullstack-development";
-  body: string;
-  collection: "Event";
-  data: any
-} & { render(): Render[".md"] };
-"essential-data-structures-algorithms.md": {
-	id: "essential-data-structures-algorithms.md";
-  slug: "essential-data-structures-algorithms";
-  body: string;
-  collection: "Event";
-  data: any
-} & { render(): Render[".md"] };
-"how-to-become-frontend-master.md": {
-	id: "how-to-become-frontend-master.md";
-  slug: "how-to-become-frontend-master";
-  body: string;
-  collection: "Event";
-  data: any
-} & { render(): Render[".md"] };
-"kitchensink.mdx": {
-	id: "kitchensink.mdx";
-  slug: "kitchensink";
-  body: string;
-  collection: "Event";
-  data: any
-} & { render(): Render[".mdx"] };
 };
 "blog copy": {
 "complete-guide-fullstack-development.md": {
@@ -257,24 +229,89 @@ declare module 'astro:content' {
   data: any
 } & { render(): Render[".mdx"] };
 };
+"blog": {
+"complete-guide-fullstack-development.md": {
+	id: "complete-guide-fullstack-development.md";
+  slug: "complete-guide-fullstack-development";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"how-to-become-frontend-master.md": {
+	id: "how-to-become-frontend-master.md";
+  slug: "how-to-become-frontend-master";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"kitchensink.mdx": {
+	id: "kitchensink.mdx";
+  slug: "kitchensink";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".mdx"] };
+"rallye de lisieux.md": {
+	id: "rallye de lisieux.md";
+  slug: "rallye-de-lisieux";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+};
 "team": {
-"janette-lynch.md": {
-	id: "janette-lynch.md";
-  slug: "janette-lynch";
+"Khaled al jundi.md": {
+	id: "Khaled al jundi.md";
+  slug: "khaled-al-jundi";
   body: string;
   collection: "team";
   data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
-"marcell-ziemann.md": {
-	id: "marcell-ziemann.md";
-  slug: "marcell-ziemann";
+"Pierre engerant.md": {
+	id: "Pierre engerant.md";
+  slug: "pierre-engerant";
   body: string;
   collection: "team";
   data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
-"robert-palmer.md": {
-	id: "robert-palmer.md";
-  slug: "robert-palmer";
+"Xavier tellier.md": {
+	id: "Xavier tellier.md";
+  slug: "xavier-tellier";
+  body: string;
+  collection: "team";
+  data: InferEntrySchema<"team">
+} & { render(): Render[".md"] };
+"baptiste cassette.md": {
+	id: "baptiste cassette.md";
+  slug: "baptiste-cassette";
+  body: string;
+  collection: "team";
+  data: InferEntrySchema<"team">
+} & { render(): Render[".md"] };
+"charles-perrard.md": {
+	id: "charles-perrard.md";
+  slug: "charles-perrard";
+  body: string;
+  collection: "team";
+  data: InferEntrySchema<"team">
+} & { render(): Render[".md"] };
+"gregoire_olliver.md": {
+	id: "gregoire_olliver.md";
+  slug: "gregoire_olliver";
+  body: string;
+  collection: "team";
+  data: InferEntrySchema<"team">
+} & { render(): Render[".md"] };
+"mathis aymard.md": {
+	id: "mathis aymard.md";
+  slug: "mathis-aymard";
+  body: string;
+  collection: "team";
+  data: InferEntrySchema<"team">
+} & { render(): Render[".md"] };
+"willian beguin.md": {
+	id: "willian beguin.md";
+  slug: "willian-beguin";
   body: string;
   collection: "team";
   data: InferEntrySchema<"team">
