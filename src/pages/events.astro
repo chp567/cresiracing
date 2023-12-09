@@ -6,34 +6,38 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
 // Filter blog entries with 'draft: false' & date before current date
-const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+const publishedEventsEntries = await getCollection("Event", ({ data }) => {
   return !data.draft && data.publishDate < new Date();
 });
 
 // Sort content entries by publication date
-publishedBlogEntries.sort(function (a, b) {
+publishedEventsEntries.sort(function (a, b) {
   return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
 });
+
+
 ---
 
-<Layout title="Blog">
+<Layout title="Événement">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Our Blog</Fragment>
+      <Fragment slot="title">Nos événements</Fragment>
       <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
+        Nos réalisation ... vos expériences
       </Fragment>
     </Sectionhead>
+    
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
-          publishedBlogEntries.map((blogPostEntry, index) => (
+          
+          publishedEventsEntries.map((eventsPostEntry, index) => (
             <li>
-              <a href={`/blog/${blogPostEntry.slug}`}>
+              <a href={`/events/${eventsPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
                   <Picture
-                    src={blogPostEntry.data.image.src}
-                    alt={blogPostEntry.data.image.alt}
+                    src={eventsPostEntry.data.image.src}
+                    alt={eventsPostEntry.data.image.alt}
                     sizes="(max-width: 800px) 100vw, 800px"
                     widths={[200, 400, 800]}
                     aspectRatio="16:9"
@@ -46,22 +50,22 @@ publishedBlogEntries.sort(function (a, b) {
                   />
                   <div>
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
-                      {blogPostEntry.data.category}
+                      {eventsPostEntry.data.category}
                     </span>
 
                     <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
-                      {blogPostEntry.data.title}
+                      {eventsPostEntry.data.title}
                     </h2>
 
                     <div class="flex gap-2 mt-3">
                       <span class="text-gray-400">
-                        {blogPostEntry.data.author}
+                        {eventsPostEntry.data.author}
                       </span>
                       <span class="text-gray-400">• </span>
                       <time
                         class="text-gray-400"
-                        datetime={blogPostEntry.data.publishDate.toISOString()}>
-                        {blogPostEntry.data.publishDate.toDateString()}
+                        datetime={eventsPostEntry.data.publishDate.toISOString()}>
+                        {eventsPostEntry.data.publishDate.toDateString()}
                       </time>
                     </div>
                   </div>
@@ -74,3 +78,4 @@ publishedBlogEntries.sort(function (a, b) {
     </main>
   </Container>
 </Layout>
+
