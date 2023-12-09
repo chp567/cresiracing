@@ -197,9 +197,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"Event": {
-};
-"blog copy": {
+		"blog copy": {
 "complete-guide-fullstack-development.md": {
 	id: "complete-guide-fullstack-development.md";
   slug: "complete-guide-fullstack-development";
@@ -330,7 +328,9 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		
+		"timeline": {
+};
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;

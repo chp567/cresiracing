@@ -1,11 +1,11 @@
 ---
 draft: false
-name: "Baptiste CASSETTE"
-title: "Trésorier & responsable site internet"
+name: "Big Mat"
+title: "Batiment et matériaux"
 avatar: {
     src: "../../public/k7.jpg",
-    alt: "Robert Palmer"
+    alt: "Big Mat"
 }
 publishDate: "2023-12-09 "
-href : 'https://pornhub.com'
+href : 'https://www.bigmat.fr/'
 ---
