@@ -1,0 +1,83 @@
+---
+import Container from "@components/container.astro";
+import { Picture } from "@astrojs/image/components";
+import Link from "@components/ui/link.astro";
+import Dropdown from "./dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import Logos from "../../assets/logo_officiel_sansfond (1).png";
+
+const menuitems = [
+    {
+    title: "Événements",
+    path: "/events",
+  },
+  {
+    title: "Qui sommes nous ?",
+    path: "/about",
+  },
+  {
+    title: "Sponsors",
+    path: "/sponsors",
+  },
+  {
+    title: "Objectifs",
+    path: "/objectifs",
+  },
+
+  {
+    title: "News",
+    path: "/news",
+  },
+
+                                           
+];                                                                          
+---
+
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5 h-50">
+    <Astronav>
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="/" class="text-lg max-h-full py-4 h-50"
+          ><Picture
+          src={Logos}
+          alt="Astronaut in the air"
+          widths={[200, 400, 600]}
+          aspectRatio="4:3"
+          sizes="(max-width: 800px) 100vw, 80px"
+          loading="eager"
+          format="avif"
+        />
+        </a>
+        <div class="block lg:hidden">
+          <MenuIcon class="w-4 h-4 text-gray-800" />
+        </div>
+      </div>
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+        <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {
+            menuitems.map((item, index) => (
+              <>
+
+
+                {!item.children && (
+                  <li>
+                    <a
+                      href={item.path}
+                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900">
+                      <span> {item.title}</span>
+                      {item.badge && (
+                        <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
+                          New
+                        </span>
+                      )}
+                    </a>
+                  </li>
+                )}
+              </>
+            ))
+          }
+        </ul>
+         
+    </div>
+  </header>
+</Container>

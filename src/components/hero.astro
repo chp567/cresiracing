@@ -1,0 +1,53 @@
+---
+import { Picture } from "@astrojs/image/components";
+import Link from "@components/ui/link.astro";
+import TeamPhoto from "assets/Team.png";
+---
+
+<main
+  class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24 ">
+  <div class="image-container md:order-1 hidden md:block">
+   <Picture
+      src={TeamPhoto}
+      alt="Team"
+      widths={[200, 400, 600]}
+      aspectRatio="4:3"
+      sizes="(max-width: 800px) 100vw, 620px"
+      loading="eager"
+      format="avif"
+    />
+  </div>
+  <div class="pl-4">
+    <h1
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-center">
+      Bienvenue sur Cresi Racing
+    </h1>
+    
+    <div class="mt-6 flex flex-col sm:flex-row gap-3  mb-4 justify-center">
+      <Link
+        href="/Contacts"
+        target="_blank"
+        class="flex gap-1 items-center justify-center"
+        rel="noopener">
+        <!--<Icon class="text-white w-5 h-5" name="bx:bxs-cloud-download" />-->
+
+        Rejoingnez nous !! <!-- rejoingez l'aventure // suivez nous !! -->
+      </Link>
+      
+    </div>
+  </div>
+</main>
+
+
+<style>
+  /* Styliser le conteneur de l'image pour inclure border-radius */
+  .image-container {
+    border-radius: 0.75rem; /* équivalent de 'rounded-md' dans Tailwind CSS */
+    overflow: hidden; /* s'assure que l'image à l'intérieur respecte le border-radius */
+  }
+  
+  /* Si vous voulez ajouter border-radius directement à l'image (pas recommandé pour <Picture>) */
+  /* .full-height-image {
+    border-radius: 0.75rem;
+  } */
+</style>
