@@ -259,6 +259,15 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
+"sponsors": {
+"bigmatt.md": {
+	id: "bigmatt.md";
+  slug: "bigmatt";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+};
 "team": {
 "Khaled al jundi.md": {
 	id: "Khaled al jundi.md";
