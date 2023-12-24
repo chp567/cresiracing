@@ -20,7 +20,9 @@ declare module 'astro:content' {
 
 declare module 'astro:content' {
 	export { z } from 'astro/zod';
-	export type CollectionEntry<C extends keyof AnyEntryMap> = AnyEntryMap[C][keyof AnyEntryMap[C]];
+
+	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
+	export type CollectionEntry<C extends keyof AnyEntryMap> = Flatten<AnyEntryMap[C]>;
 
 	// TODO: Remove this when having this fallback is no longer relevant. 2.3? 3.0? - erika, 2023-04-04
 	/**
@@ -61,12 +63,9 @@ declare module 'astro:content' {
 
 	type BaseSchemaWithoutEffects =
 		| import('astro/zod').AnyZodObject
-		| import('astro/zod').ZodUnion<import('astro/zod').AnyZodObject[]>
+		| import('astro/zod').ZodUnion<[BaseSchemaWithoutEffects, ...BaseSchemaWithoutEffects[]]>
 		| import('astro/zod').ZodDiscriminatedUnion<string, import('astro/zod').AnyZodObject[]>
-		| import('astro/zod').ZodIntersection<
-				import('astro/zod').AnyZodObject,
-				import('astro/zod').AnyZodObject
-		  >;
+		| import('astro/zod').ZodIntersection<BaseSchemaWithoutEffects, BaseSchemaWithoutEffects>;
 
 	type BaseSchema =
 		| BaseSchemaWithoutEffects
@@ -198,64 +197,57 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"blog copy": {
-"complete-guide-fullstack-development.md": {
-	id: "complete-guide-fullstack-development.md";
-  slug: "complete-guide-fullstack-development";
+		"events copy": {
+"rally_du_treport.md": {
+	id: "rally_du_treport.md";
+  slug: "rally_du_treport.md";
   body: string;
-  collection: "blog copy";
+  collection: "events copy";
   data: any
 } & { render(): Render[".md"] };
 "essential-data-structures-algorithms.md": {
 	id: "essential-data-structures-algorithms.md";
   slug: "essential-data-structures-algorithms";
   body: string;
-  collection: "blog copy";
+  collection: "events copy";
   data: any
 } & { render(): Render[".md"] };
 "how-to-become-frontend-master.md": {
 	id: "how-to-become-frontend-master.md";
   slug: "how-to-become-frontend-master";
   body: string;
-  collection: "blog copy";
+  collection: "events copy";
   data: any
 } & { render(): Render[".md"] };
 "kitchensink.mdx": {
 	id: "kitchensink.mdx";
   slug: "kitchensink";
   body: string;
-  collection: "blog copy";
+  collection: "events copy";
   data: any
 } & { render(): Render[".mdx"] };
 };
-"blog": {
-"complete-guide-fullstack-development.md": {
-	id: "complete-guide-fullstack-development.md";
-  slug: "complete-guide-fullstack-development";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"how-to-become-frontend-master.md": {
-	id: "how-to-become-frontend-master.md";
-  slug: "how-to-become-frontend-master";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
+"events": {
 "kitchensink.mdx": {
 	id: "kitchensink.mdx";
   slug: "kitchensink";
   body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
+  collection: "events";
+  data: any
 } & { render(): Render[".mdx"] };
 "rallye de lisieux.md": {
 	id: "rallye de lisieux.md";
   slug: "rallye-de-lisieux";
   body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
+  collection: "events";
+  data: any
+} & { render(): Render[".md"] };
+"rallye du treport.md": {
+	id: "rallye du treport.md";
+  slug: "rallye-du-treport";
+  body: string;
+  collection: "events";
+  data: any
 } & { render(): Render[".md"] };
 };
 "sponsors": {
@@ -264,7 +256,7 @@ declare module 'astro:content' {
   slug: "bigmatt";
   body: string;
   collection: "sponsors";
-  data: InferEntrySchema<"sponsors">
+  data: any
 } & { render(): Render[".md"] };
 };
 "team": {
@@ -273,56 +265,56 @@ declare module 'astro:content' {
   slug: "khaled-al-jundi";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "Pierre engerant.md": {
 	id: "Pierre engerant.md";
   slug: "pierre-engerant";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "Xavier tellier.md": {
 	id: "Xavier tellier.md";
   slug: "xavier-tellier";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "baptiste cassette.md": {
 	id: "baptiste cassette.md";
   slug: "baptiste-cassette";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "charles-perrard.md": {
 	id: "charles-perrard.md";
   slug: "charles-perrard";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "gregoire_olliver.md": {
 	id: "gregoire_olliver.md";
   slug: "gregoire_olliver";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "mathis aymard.md": {
 	id: "mathis aymard.md";
   slug: "mathis-aymard";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 "willian beguin.md": {
 	id: "willian beguin.md";
   slug: "willian-beguin";
   body: string;
   collection: "team";
-  data: InferEntrySchema<"team">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -336,5 +328,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

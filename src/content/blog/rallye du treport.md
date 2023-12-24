@@ -3,7 +3,7 @@ draft: false
 title: "Le rally de tréport"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "../../public/Team.png",
+    src: "src/content/blog/image/Team.png",
     alt: "photo de l'équipe"
 }
 publishDate: "2023-06-03"
