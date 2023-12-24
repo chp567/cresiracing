@@ -197,56 +197,49 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"events copy": {
-"rally_du_treport.md": {
-	id: "rally_du_treport.md";
-  slug: "rally_du_treport.md";
+		"blog copy": {
+"complete-guide-fullstack-development.md": {
+	id: "complete-guide-fullstack-development.md";
+  slug: "complete-guide-fullstack-development";
   body: string;
-  collection: "events copy";
+  collection: "blog copy";
   data: any
 } & { render(): Render[".md"] };
 "essential-data-structures-algorithms.md": {
 	id: "essential-data-structures-algorithms.md";
   slug: "essential-data-structures-algorithms";
   body: string;
-  collection: "events copy";
+  collection: "blog copy";
   data: any
 } & { render(): Render[".md"] };
 "how-to-become-frontend-master.md": {
 	id: "how-to-become-frontend-master.md";
   slug: "how-to-become-frontend-master";
   body: string;
-  collection: "events copy";
+  collection: "blog copy";
   data: any
 } & { render(): Render[".md"] };
 "kitchensink.mdx": {
 	id: "kitchensink.mdx";
   slug: "kitchensink";
   body: string;
-  collection: "events copy";
+  collection: "blog copy";
   data: any
 } & { render(): Render[".mdx"] };
 };
-"events": {
-"kitchensink.mdx": {
-	id: "kitchensink.mdx";
-  slug: "kitchensink";
-  body: string;
-  collection: "events";
-  data: any
-} & { render(): Render[".mdx"] };
+"blog": {
 "rallye de lisieux.md": {
 	id: "rallye de lisieux.md";
   slug: "rallye-de-lisieux";
   body: string;
-  collection: "events";
+  collection: "blog";
   data: any
 } & { render(): Render[".md"] };
 "rallye du treport.md": {
 	id: "rallye du treport.md";
   slug: "rallye-du-treport";
   body: string;
-  collection: "events";
+  collection: "blog";
   data: any
 } & { render(): Render[".md"] };
 };
