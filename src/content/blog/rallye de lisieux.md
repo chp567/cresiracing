@@ -3,7 +3,7 @@ draft: false
 title: " Rallye de lisieux"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "src/content/blog/image/rally_lisieux.jpg  ",
+    src: "/rally_lisieux.jpg  ",
     alt: "data stru-ctures & algorithms"
 }
 publishDate: "2022-11-09 16:39"
