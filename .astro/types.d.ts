@@ -244,6 +244,13 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "sponsors": {
+"CrediAgricole.md": {
+	id: "CrediAgricole.md";
+  slug: "crediagricole";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
 "Dekra.md": {
 	id: "Dekra.md";
   slug: "dekra";
@@ -254,6 +261,20 @@ declare module 'astro:content' {
 "bigmatt.md": {
 	id: "bigmatt.md";
   slug: "bigmatt";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+"cesi.md": {
+	id: "cesi.md";
+  slug: "cesi";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+"ismans.md": {
+	id: "ismans.md";
+  slug: "ismans";
   body: string;
   collection: "sponsors";
   data: InferEntrySchema<"sponsors">

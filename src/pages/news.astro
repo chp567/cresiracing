@@ -1,0 +1,22 @@
+---
+import { LinkedInEmbed } from 'react-social-media-embed';
+import { InstagramEmbed } from 'react-social-media-embed';
+import Layout from "@layouts/Layout.astro";
+
+---
+
+<Layout title="News">
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <LinkedInEmbed 
+      url="https://www.linkedin.com/embed/feed/update/urn:li:share:6898694772484112384"
+      postUrl="https://www.linkedin.com/posts/peterdiamandis_5-discoveries-the-james-webb-telescope-will-activity-6898694773406875648-z-D7"
+      width={325}
+      height={570} 
+    />
+  </div>
+
+  <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <InstagramEmbed url="https://www.instagram.com/cresiracing/?hl=fr" width={328} />
+  </div>
+
+</Layout>
