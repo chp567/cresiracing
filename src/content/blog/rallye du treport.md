@@ -8,7 +8,7 @@ image: {
 }
 publishDate: "2023-06-03"
 category: "Rallye"
-author: "Charles Perrard"
+author: "Khaled Al Jundi"
 tags: [rallye, camaraderies, changement de pneu]
 ---
 
