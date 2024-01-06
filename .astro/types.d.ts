@@ -233,21 +233,21 @@ declare module 'astro:content' {
   slug: "prochain-évenement-à-venir-";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "rallye de lisieux.md": {
 	id: "rallye de lisieux.md";
   slug: "rallye-de-lisieux";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 "rallye du treport.md": {
 	id: "rallye du treport.md";
   slug: "rallye-du-treport";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 "sponsors": {
@@ -256,63 +256,63 @@ declare module 'astro:content' {
   slug: "crediagricole";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "Dekra.md": {
 	id: "Dekra.md";
   slug: "dekra";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "bigmatt.md": {
 	id: "bigmatt.md";
   slug: "bigmatt";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "cesi.md": {
 	id: "cesi.md";
   slug: "cesi";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "creavi.md": {
 	id: "creavi.md";
   slug: "creavi";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "france rein.md": {
 	id: "france rein.md";
   slug: "france-rein";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "ismans.md": {
 	id: "ismans.md";
   slug: "ismans";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "permitty.md": {
 	id: "permitty.md";
   slug: "permitty";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 "topgarageclassic.md": {
 	id: "topgarageclassic.md";
   slug: "topgarageclassic";
   body: string;
   collection: "sponsors";
-  data: any
+  data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
 };
 "team": {
@@ -321,42 +321,42 @@ declare module 'astro:content' {
   slug: "khaled-al-jundi";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 "Pierre engerant.md": {
 	id: "Pierre engerant.md";
   slug: "pierre-engerant";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 "baptiste cassette.md": {
 	id: "baptiste cassette.md";
   slug: "baptiste-cassette";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 "charles-perrard.md": {
 	id: "charles-perrard.md";
   slug: "charles-perrard";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 "gregoire_olliver.md": {
 	id: "gregoire_olliver.md";
   slug: "gregoire_olliver";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 "mathis aymard.md": {
 	id: "mathis aymard.md";
   slug: "mathis-aymard";
   body: string;
   collection: "team";
-  data: any
+  data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
 };
 
@@ -370,5 +370,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config");
 }
