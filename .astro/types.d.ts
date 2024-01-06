@@ -228,6 +228,13 @@ declare module 'astro:content' {
 } & { render(): Render[".mdx"] };
 };
 "blog": {
+"Prochain évenement à venir .md": {
+	id: "Prochain évenement à venir .md";
+  slug: "prochain-évenement-à-venir-";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "rallye de lisieux.md": {
 	id: "rallye de lisieux.md";
   slug: "rallye-de-lisieux";
@@ -272,9 +279,37 @@ declare module 'astro:content' {
   collection: "sponsors";
   data: InferEntrySchema<"sponsors">
 } & { render(): Render[".md"] };
+"creavi.md": {
+	id: "creavi.md";
+  slug: "creavi";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+"france rein.md": {
+	id: "france rein.md";
+  slug: "france-rein";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
 "ismans.md": {
 	id: "ismans.md";
   slug: "ismans";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+"permitty.md": {
+	id: "permitty.md";
+  slug: "permitty";
+  body: string;
+  collection: "sponsors";
+  data: InferEntrySchema<"sponsors">
+} & { render(): Render[".md"] };
+"topgarageclassic.md": {
+	id: "topgarageclassic.md";
+  slug: "topgarageclassic";
   body: string;
   collection: "sponsors";
   data: InferEntrySchema<"sponsors">
