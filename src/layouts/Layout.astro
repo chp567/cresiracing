@@ -1,60 +1,67 @@
 ---
-import { SEO } from "astro-seo";
 import Footer from "@components/footer.astro";
 import Navbar from "@components/navbar/navbar.astro";
+import AnnouncementHero from "../components/AnnouncementHero.astro";
 import "@fontsource-variable/inter/index.css";
 
 export interface Props {
   title: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
-
-const resolvedImageWithDomain = new URL(
-  "/opengraph.jpg",
-  Astro.site
-).toString();
-
 const { title } = Astro.props;
 
-const makeTitle = title
-  ? title + " | " + "cresi racing"
-  : "rallye notre passion";
+const makeTitle = title ? title + " | " + "CRESI Racing" : "CRESI Racing";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/logo_officiel_sansfond (1).png" />
-    <meta name="generator" content={Astro.generator} />
-
-    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
-    <SEO
-      title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
-      canonical={canonicalURL}
-      twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
-        card: "summary_large_image",
-      }}
-      openGraph={{
-        basic: {
-          url: canonicalURL,
-          type: "website",
-          title: `Astroship - Starter Template for Astro`,
-          image: resolvedImageWithDomain,
-        },
-        image: {
-          alt: "Astroship Homepage Screenshot",
-        },
-      }}
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="icon" type="image/svg+xml" href="/iconcresi.png" />
+    <meta name="author" content="cresiracing" />
+
+    <!-- SEO Tags -->
+    <title>{makeTitle}</title>
+    <meta
+      name="description"
+      content="cresiracing, cresi racing, cesi, ingénieurs, clio rally5, europe, clio trophy"
+    />
+    <link rel="canonical" href="https://cresiracing.com/" />
+    <!-- Add more SEO meta tags as needed -->
+
+    <!-- Open Graph Tags for Social Media -->
+    <meta
+      property="og:title"
+      content="CRESI Racing - Passion et Innovation en Sport Automobile"
+    />
+    <meta
+      property="og:description"
+      content="Rejoignez CRESI Racing pour une aventure unique dans le monde des courses automobiles. Découvrez notre engagement envers l'excellence et l'innovation dans chaque course."
+    />
+    <meta property="og:image" content="/iconcresi.png" />
+    <meta property="og:url" content="https://cresiracing.com/" />
+
+    <!-- Add more Open Graph tags as needed -->
+
+    <!-- Twitter Card Tags -->
+    <meta
+      name="twitter:title"
+      content="CRESI Racing - Passion et Innovation en Sport Automobile"
+    />
+    <meta
+      name="twitter:description"
+      content="Rejoignez l'aventure CRESI Racing et découvrez notre passion pour le sport automobile. Innovation, compétition, et esprit d'équipe nous définissent."
+    />
+    <meta name="twitter:image" content="/iconcresi.png" />
+    <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
     <Navbar />
+    <AnnouncementHero />
     <slot />
     <Footer />
     <style is:global>

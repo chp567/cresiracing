@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Le rally de tréport"
+title: "Le rally du tréport"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "/Team.png",
@@ -8,7 +8,7 @@ image: {
 }
 publishDate: "2023-06-03"
 category: "Rallye"
-author: "Charles Perrard"
+author: "Khaled Al Jundi"
 tags: [rallye, camaraderies, changement de pneu]
 ---
 

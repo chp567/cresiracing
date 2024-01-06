@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Charles PERRARD"
-title: "Conducteur"
+title: "Pilote"
 avatar: {
     src: "/charles1.jpg",
     alt: "charles-perrard"

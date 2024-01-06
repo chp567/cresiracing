@@ -295,13 +295,6 @@ declare module 'astro:content' {
   collection: "team";
   data: InferEntrySchema<"team">
 } & { render(): Render[".md"] };
-"Xavier tellier.md": {
-	id: "Xavier tellier.md";
-  slug: "xavier-tellier";
-  body: string;
-  collection: "team";
-  data: InferEntrySchema<"team">
-} & { render(): Render[".md"] };
 "baptiste cassette.md": {
 	id: "baptiste cassette.md";
   slug: "baptiste-cassette";
@@ -326,13 +319,6 @@ declare module 'astro:content' {
 "mathis aymard.md": {
 	id: "mathis aymard.md";
   slug: "mathis-aymard";
-  body: string;
-  collection: "team";
-  data: InferEntrySchema<"team">
-} & { render(): Render[".md"] };
-"willian beguin.md": {
-	id: "willian beguin.md";
-  slug: "willian-beguin";
   body: string;
   collection: "team";
   data: InferEntrySchema<"team">
