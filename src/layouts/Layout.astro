@@ -9,47 +9,49 @@ export interface Props {
   title: string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const canonicalURL = "https://cresiracing.com/";
 
 const resolvedImageWithDomain = new URL(
-  "/opengraph.jpg",
-  Astro.site
+  "/Team.png.jpg",
+  "cresiracing.com"
 ).toString();
 
 const { title } = Astro.props;
 
 const makeTitle = title
   ? title + " | " + "cresi racing"
-  : "rallye notre passion";
+  : "CRESI Racing";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="cresiracing, cresi racing, cesi, ingénieurs, clio trophy france"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="icon" type="image/svg+xml" href="/iconcresi.png" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="author" content="cresiracing" />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Astroship is a starter website template for Astro built with TailwindCSS."
+      description="CRESI Racing est une association dans le sport automobile. Nous participons à des championnats de course automobile. Notre but est de faire découvrir au plus grand nombre ce sport et de le rendre accessible à tous."
       canonical={canonicalURL}
       twitter={{
-        creator: "@surjithctly",
-        site: "@web3templates",
+        creator: "cresiracing",
+        site: "cresiracing",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Astroship - Starter Template for Astro`,
+          title: `CRESI Racing - Student Racing Team`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "CRESI Racing Homepage Screenshot",
         },
       }}
     />
