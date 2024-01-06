@@ -3,7 +3,7 @@ draft: false
 title: "Prochain événement à venir: CRESI Championship en Karting"
 snippet: "L'aventure continue pour l'équipe CRESI avec une nouvelle série de courses passionnantes en karting. Rejoignez-nous pour cette nouvelle aventure à grande vitesse!"
 image: {
-    src: "/rally_lisieux.jpg",
+    src: "/karting.jpg",
     alt: "CRESI Championship Karting"
 }
 publishDate: "2024-01-01"
