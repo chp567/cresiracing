@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Le rally de tréport"
+title: "Le rally du tréport"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
     src: "/Team.png",
@@ -8,30 +8,56 @@ image: {
 }
 publishDate: "2023-06-03"
 category: "Rallye"
-author: "Charles Perrard"
+author: "Khaled Al Jundi"
 tags: [rallye, camaraderies, changement de pneu]
 ---
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit euismod rutrum, consequat fringilla ultricies nullam curae mollis semper conubia viverra, orci aenean dapibus pharetra nec tortor tellus cubilia. Ullamcorper mi lectus eu malesuada tempor massa praesent magna mattis posuere, lobortis vulputate ut duis magnis parturient habitant nibh id tristique, quis suspendisse donec nisl penatibus sem non feugiat taciti. Mollis per ridiculus integer cursus semper vestibulum fermentum penatibus cubilia blandit scelerisque, tempus platea leo posuere ac pharetra volutpat aliquet euismod id ullamcorper lobortis, urna est magna mus rhoncus massa curae libero praesent eget. Mattis malesuada vestibulum quis ac nam phasellus suscipit facilisis libero diam posuere, cursus massa vehicula neque imperdiet tincidunt dui egestas lacinia mollis aliquet orci, nisl curabitur dapibus litora dis cum nostra montes ligula praesent. Facilisi aliquam convallis molestie tempor blandit ultricies bibendum parturient cubilia quam, porttitor morbi torquent tempus taciti nec faucibus elementum phasellus, quis inceptos vestibulum gravida augue potenti eget nunc maecenas. Tempor facilisis ligula volutpat habitant consequat inceptos orci per potenti blandit platea, mus sapien eget vel libero vestibulum augue cubilia ut ultrices fringilla lectus, imperdiet pellentesque cum ridiculus convallis sollicitudin nisl interdum semper felis.
+# Rallye du Tréport : Souvenirs Inoubliables de l'Aventure CRESI Racing
 
-Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti augue nulla vivamus senectus odio, quisque curabitur enim consequat class sociis feugiat ullamcorper, felis dis imperdiet cubilia commodo sed massa phasellus. Viverra purus mus nisi condimentum dui vehicula facilisis turpis, habitant nascetur lectus tempor quisque habitasse urna scelerisque, nibh nullam vestibulum luctus aenean mollis metus. Suscipit gravida duis nec aliquet natoque molestie a ridiculus scelerisque cum, justo cursus sapien sodales purus dignissim vel facilisi magnis, inceptos rutrum ut integer auctor commodo sollicitudin fames et. Faucibus ligula nibh sagittis mauris auctor posuere habitant, scelerisque phasellus accumsan egestas gravida viverra nam, sed etiam eleifend proin massa dictumst. Porttitor risus luctus per aenean tellus primis fringilla vitae fames lacinia mauris metus, nec pulvinar quisque commodo sodales ac nibh natoque phasellus semper placerat. Lectus aenean potenti leo sollicitudin tristique eros quam ligula, vestibulum diam consequat enim torquent nec tempus, blandit viverra dapibus eleifend dis nunc nascetur.
+## Une Rencontre avec l'Aventure
 
-## Sodales hendrerit malesuada et vestibulum
+Chaque année, la ville côtière du Tréport se transforme en un terrain de jeu pour les passionnés de rallye. Le Rallye du Tréport, avec ses parcours mélangeant vitesse et technique, promet toujours une expérience riche en adrénaline.
 
-- Luctus euismod pretium nisi et, est dui enim.
+![rallyetreport ](/rallye_treport.jpg)
 
-- Curae eget inceptos malesuada, fermentum class.
+## L'Esprit de CRESI Racing
 
-- Porttitor vestibulum aliquam porta feugiat velit, potenti eu placerat.
+2023 a été une année mémorable pour notre équipe, CRESI Racing. Malgré une crevaison surprise, nous avons réussi à décrocher la troisième place dans notre catégorie. C'était une course contre les éléments, mais aussi un moment de fierté indéniable.
 
-- Ligula lacus tempus ac porta, vel litora.
+<!-- *Emplacement suggéré pour une photo : L'équipe en pleine action, montrant notre voiture en pleine vitesse sur le circuit.* -->
 
-Torquent non nisi lacinia faucibus nibh tortor taciti commodo porttitor, mus hendrerit id leo scelerisque mollis habitasse orci tristique aptent, lacus at molestie cubilia facilisis porta accumsan condimentum. Metus lacus suscipit porttitor integer facilisi torquent, nostra nulla platea at natoque varius venenatis, id quam pharetra aliquam leo. Dictum orci himenaeos quam mi fusce lacinia maecenas ac magna eleifend laoreet, vivamus enim curabitur ullamcorper est ultrices convallis suscipit nascetur. Ornare fames pretium ante ac eget nisi tellus vivamus, convallis mauris sapien imperdiet sollicitudin aliquet taciti quam, lacinia tempor primis magna iaculis at eu. Est facilisi proin risus eleifend orci torquent ultricies platea, quisque nullam vel porttitor euismod sociis non, maecenas sociosqu interdum arcu sed pharetra potenti. Aliquet risus tempus hendrerit sapien tellus eget cursus enim etiam dui, lobortis nostra pellentesque odio posuere morbi ad neque senectus arcu eu, turpis proin ac felis purus fames magnis dis dignissim.
+## Nos Héros : Charles et Grégoire
 
-Orci volutpat augue viverra scelerisque dictumst ut condimentum vivamus, accumsan cum sem sollicitudin aliquet vehicula porta pretium placerat, malesuada euismod primis cubilia rutrum tempus parturient. Urna mauris in nibh morbi hendrerit vulputate condimentum, iaculis consequat porttitor dui dis euismod eros, arcu elementum venenatis varius lectus nisi. Nibh arcu ultrices semper morbi quam aptent quisque porta posuere iaculis, vestibulum cum vitae primis varius natoque conubia eu. Placerat sociis sagittis sociosqu morbi purus lobortis convallis, bibendum tortor ridiculus orci habitasse viverra dictum, quis rutrum fusce potenti volutpat vehicula. Curae porta inceptos lectus mus urna litora semper aliquam libero rutrum sem dui maecenas ligula quis, eget risus non imperdiet cum morbi magnis suspendisse etiam augue porttitor placerat facilisi hendrerit. Et eleifend eget augue duis fringilla sagittis erat est habitasse commodo tristique quisque pretium, suspendisse imperdiet inceptos mollis blandit magna mus elementum molestie sed vestibulum. Euismod morbi hendrerit suscipit felis ornare libero ligula, mus tortor urna interdum blandit nisi netus posuere, purus fermentum magnis nam primis nulla.
+Charles Perrard et Grégoire Ollivier, notre duo dynamique, ont été les stars de la journée. Partant de loin dans le classement, ils ont fait une remontée spectaculaire, montrant que la persévérance paie toujours.
 
-## Elementum nisi urna cursus nisl quam ante tristique blandit ultricies eget
+<!-- *Emplacement suggéré pour une photo : Charles et Grégoire en plein échange, capturant leur esprit d'équipe et leur détermination.* -->
+![champions ](/Pilotes-avec-la-coupe.png)
 
-Netus at rutrum taciti vestibulum molestie conubia semper class potenti lobortis, hendrerit donec vitae ad libero natoque parturient litora congue. Torquent rhoncus odio cursus iaculis molestie arcu leo condimentum accumsan, laoreet congue duis libero justo tortor commodo fusce, massa eros hac euismod netus sodales mi magnis. Aenean nullam sollicitudin ad velit nulla venenatis suspendisse iaculis, aliquet senectus mollis aptent fringilla volutpat nascetur, nec urna vehicula lacinia neque augue orci. Suspendisse et eleifend convallis sollicitudin posuere diam turpis gravida congue ultrices, laoreet ultricies dapibus proin facilisis magna class praesent fusce. Mus morbi magnis ultricies sed turpis ultrices tempus tortor bibendum, netus nulla viverra torquent malesuada ridiculus tempor. Parturient sociosqu erat ullamcorper gravida natoque varius, etiam habitant augue praesent per curabitur iaculis, donec pellentesque cursus suscipit aliquet. Congue curae cursus scelerisque pellentesque quis fusce arcu eros dictumst luctus ridiculus nisl viverra, turpis class faucibus phasellus feugiat eleifend fringilla orci tristique habitasse conubia quam. Habitasse montes congue sodales rutrum cras torquent cursus auctor condimentum imperdiet egestas nascetur, platea tincidunt ut sollicitudin purus libero lobortis ad nisi diam quam.
+## Plus Qu'une Course, Une Leçon de Vie
 
-Suspendisse et eleifend convallis sollicitudin posuere diam turpis gravida congue ultrices, laoreet ultricies dapibus proin facilisis magna class praesent fusce. Mus morbi magnis ultricies sed turpis ultrices tempus tortor bibendum, netus nulla viverra torquent malesuada ridiculus tempor. Parturient sociosqu erat ullamcorper gravida natoque varius, etiam habitant augue praesent per curabitur iaculis, donec pellentesque cursus suscipit aliquet. Congue curae cursus scelerisque pellentesque quis fusce arcu eros dictumst luctus ridiculus nisl viverra, turpis class faucibus phasellus feugiat eleifend fringilla orci tristique habitasse conubia quam. Habitasse montes congue sodales rutrum cras torquent cursus auctor condimentum imperdiet egestas nascetur.
+CRESI Racing, c'est plus qu'une équipe de rallye. C'est un groupe d'individus animés par une passion commune et un désir constant de s'améliorer. L'expérience du Rallye du Tréport restera gravée comme une étape clé dans notre parcours.
+
+<!-- *Emplacement suggéré pour une photo : Moment de réflexion de l'équipe, discutant stratégie et partageant des rires.* -->
+
+## En Avant Vers de Nouvelles Aventures
+
+L'expérience du Rallye du Tréport nous a laissé des souvenirs impérissables. CRESI Racing est plus déterminée que jamais à revenir plus fort, avec des leçons apprises et un esprit revigoré.
+
+![la team ](/Team.png)
+
+
+Notre aventure au Tréport est une histoire de passion, de défi et de camaraderie. C'est une expérience qui nous définit et nous motive pour l'avenir.
+
+
+---
+
+## En Savoir Plus
+
+Pour plus d'informations sur notre aventure et des perspectives supplémentaires, consultez ces articles :
+
+- [Article sur l'équipe CRESI Racing par CESI](https://lille.cesi.fr/fr/actualites/des-eleves-cesi-participent-au-rallye-du-treport-edition-2023/)
+- [Article sur l'équipe CRESI Racing par ISMANS](https://ismans.cesi.fr/rallye-du-treport-2023/)
+
+---
+
+
