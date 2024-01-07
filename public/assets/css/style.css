@@ -3091,9 +3091,28 @@ mark{
     }
 }
 .cd-timeline__img--picture{
-    background-color:hsl(111, 51%, 60%);
-    background-color:var(--cd-color-4)
+    background-color:red;
+    background-color:var(--cd-color-1)
 }
+.cd-timeline__img--color1 {
+    background-color: green; 
+  }
+
+
+  .cd-timeline__img--color2 {
+    background-color: brown; 
+  }
+
+
+
+  .cd-timeline__img--color3 {
+    background-color: silver; 
+  }
+
+  .cd-timeline__img--color4 {
+    background-color: gold; 
+  }
+
 .cd-timeline__img--movie{
     background-color:hsl(356, 53%, 49%);
     background-color:var(--cd-color-5)
