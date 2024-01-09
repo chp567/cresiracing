@@ -1,0 +1,51 @@
+---
+// Logique pour déterminer si une bannière doit être affichée
+function shouldShowBanner(deadline) {
+    const currentDate = new Date();
+    const deadlineDate = new Date(deadline);
+    return currentDate < deadlineDate;
+}
+
+// Données des bannières
+const banners = [
+    {
+        title: "Evenement CRESI Championship",
+        city: "Lille Karting Outdoor",
+        dateLocation: "20 janvier, 2024 | Lille, France",
+        cfaText: "Prends tes places ici",
+        eventName: "CRESI Championship",
+        link: "https://www.helloasso.com/associations/cresi-racing",
+        deadline: '2024-01-15T00:00:00Z',
+        isDraft: true
+    }
+    // Ajouter d'autres bannières si nécessaire
+];
+
+const visibleBanners = banners.filter(banner => !banner.isDraft && shouldShowBanner(banner.deadline));
+---
+
+<!-- Container Component -->
+<div class="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 text-center">
+    {visibleBanners.map((banner, index) => (
+        <div key={index} class="bg-gray-50 border border-gray-200 rounded mb-4 p-3">
+            <!-- Heading Component -->
+            <h2 class="font-heading text-heading-md font-bold tracking-heading md:text-heading-lg text-primary-800 text-2xl">
+                {banner.title}
+            </h2>
+            <h2 class="text-xl font-heading text-heading-md font-semibold tracking-heading text-primary-800">
+                {banner.city}
+            </h2>
+
+            <!-- Paragraph Component -->
+            <p class="text-lg text-gray-700">
+                {banner.dateLocation}
+            </p>
+
+            <!-- Button Component -->
+            <a href={banner.link} target="_blank" rel="noopener noreferrer"
+                class="text-red-600 bg-primary-500 hover:bg-primary-400 transition-all duration-500 ease-in-out rounded-md px-4 py-3 text-md font-semibold tracking-heading">
+                {banner.cfaText}
+            </a>
+        </div>
+    ))}
+</div>

@@ -1,0 +1,186 @@
+---
+// Pas de script nécessaire ici
+---
+
+<div class="timeline">
+    <div class="timeline-item left">
+        <div class="timeline-image">
+            <img src="/timeline1.jpg" alt="Description Image 1">
+        </div>
+        <div class="timeline-content">
+            <h2>2022 <br> Découverte</h2>
+            <p>Participation à un premier rally
+                découvrir la voiture et l'équipe technique !</p>
+        </div>
+    </div>
+    <div class="timeline-item right">
+        <div class="timeline-image">
+            <img src="/timeline2.jpg" alt="Description Image 2">
+        </div>
+        <div class="timeline-content">
+            <h2>2023<br>Prendre de l'expérience</h2>
+            <p>Participation à au moins 3 rally du Clio Trophy france! Participation en parallèle à des rally régionaux et nationaux.</p>
+        </div>
+    </div>
+    <!-- Répétez les éléments de la timeline pour d'autres événements -->
+    <div class="timeline-item left">
+        <div class="timeline-image">
+            <img src="/timeline3.jpg" alt="Description Image 1">
+        </div>
+        <div class="timeline-content">
+            <h2>2024<br>Confirmer</h2>
+            <p>Participation à des rallye nationaux et à un grand rallye, le Monte Carlo</p>
+        </div>
+    </div>
+    <div class="timeline-item right">
+        <div class="timeline-image">
+            <img src="/timeline4.jpg" alt="Description Image 2">
+        </div>
+        <div class="timeline-content">
+            <h2>2025<br>Performer</h2>
+            <p>Participation à des manches de la coupe Clio Trophy France</p>
+        </div>
+    </div>
+
+    <div class="timeline-item left">
+        <div class="timeline-image1">
+            
+           <p>Vivez <br> le <br>avec nous</p>
+        </div>
+        <div class="timeline-content">
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+<style>
+
+.timeline-image1 {
+    background-color: #dc905c;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex; /* Ajouté pour le centrage */
+    justify-content: center; /* Ajouté pour le centrage */
+    align-items: center; /* Ajouté pour le centrage */
+}
+
+.timeline-image1 p {
+    font-weight: bold; /* Mettre le texte en gras */
+    color: black; /* Couleur du texte, changez si nécessaire */
+    margin: 0; /* Enlève les marges par défaut du paragraphe */
+    text-align: center;
+}
+        .timeline {
+            position: relative;
+            width: 100%;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: grey;
+        }
+        
+        .timeline-item {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .timeline-item.left .timeline-content {
+            order: 1;
+            margin-right: 50%;
+            text-align: right;
+            padding-left: 20px; /* Ajout d'un espace à gauche */
+            padding-top: 5rem;
+            margin-bottom: 5rem;
+        }
+        
+        .timeline-item.right .timeline-content {
+            order: 2;
+            margin-left: 55%; /* Ajustement de la marge pour décoller du centre */
+            text-align: left;
+            padding-right: 20px; /* Ajout d'un espace à droite */
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 8rem;
+        }
+        
+        .timeline-content {
+            width: 35%; /* Ajustement de la largeur si nécessaire */
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .timeline-content h2{
+            font-size: large;
+            font-weight: bold;
+        }
+        
+        .timeline-image {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+        
+        .timeline-image img {
+            height: 150px; /* Nouvelle hauteur */
+            width: 150px; /* Nouvelle largeur */
+            border-radius: 50%;
+        }
+
+        /* Styles responsifs pour les petits écrans */
+        @media (max-width: 600px) {
+            .timeline-item {
+                display: block;
+            }
+
+            .timeline-item .timeline-content, .timeline-item .timeline-image {
+                margin-left: 0;
+                margin-right: 0;
+                text-align: center;
+            }
+
+            .timeline-item.left .timeline-content, .timeline-item.right .timeline-content {
+                width: 80%;
+                margin: 0 auto 20px;
+            }
+
+            .timeline-image img {
+                height: 80px;
+                width: 80px;
+            }
+
+            .timeline-image {
+                position: static;
+                transform: none;
+                margin: 0 auto 10px;
+            }
+
+            .timeline::before {
+                left: 0;
+                width: 100%;
+                height: 2px;
+                top: auto;
+            }
+
+            .timeline-item.left .timeline-image, .timeline-item.right .timeline-image {
+                top: auto;
+            }
+        }
+    </style>

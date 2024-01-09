@@ -1,37 +1,59 @@
 ---
 draft: false
-title: " Rallye de lisieux"
-snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
+title: "Le rally de Lisieux"
+snippet: "Découvrez comment l'équipe CRESI Racing a conquis la première place dans leur groupe et classe au Rallye de Lisieux."
 image: {
-    src: "../../public/rally_lisieux.jpg",
-    alt: "data stru-ctures & algorithms"
+    src: "/rally_lisieux.jpg",
+    alt: "photo de l'équipe à Lisieux"
 }
-publishDate: "2022-11-09 16:39"
-category: "Courses"
-author: "Grégoire"
-tags: [webdev, tailwindcss, frontend]
+publishDate: "2022-09-10"
+category: "Rallye"
+author: "Khaled Al Jundi"
+tags: [rallye, aventure, performance, victoire]
 ---
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit euismod rutrum, consequat fringilla ultricies nullam curae mollis semper conubia viverra, orci aenean dapibus pharetra nec tortor tellus cubilia. Ullamcorper mi lectus eu malesuada tempor massa praesent magna mattis posuere, lobortis vulputate ut duis magnis parturient habitant nibh id tristique, quis suspendisse donec nisl penatibus sem non feugiat taciti. Mollis per ridiculus integer cursus semper vestibulum fermentum penatibus cubilia blandit scelerisque, tempus platea leo posuere ac pharetra volutpat aliquet euismod id ullamcorper lobortis, urna est magna mus rhoncus massa curae libero praesent eget. Mattis malesuada vestibulum quis ac nam phasellus suscipit facilisis libero diam posuere, cursus massa vehicula neque imperdiet tincidunt dui egestas lacinia mollis aliquet orci, nisl curabitur dapibus litora dis cum nostra montes ligula praesent. Facilisi aliquam convallis molestie tempor blandit ultricies bibendum parturient cubilia quam, porttitor morbi torquent tempus taciti nec faucibus elementum phasellus, quis inceptos vestibulum gravida augue potenti eget nunc maecenas. Tempor facilisis ligula volutpat habitant consequat inceptos orci per potenti blandit platea, mus sapien eget vel libero vestibulum augue cubilia ut ultrices fringilla lectus, imperdiet pellentesque cum ridiculus convallis sollicitudin nisl interdum semper felis.
+# Rallye de Lisieux : 1er Rally et 1ère Victoire
 
-Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti augue nulla vivamus senectus odio, quisque curabitur enim consequat class sociis feugiat ullamcorper, felis dis imperdiet cubilia commodo sed massa phasellus. Viverra purus mus nisi condimentum dui vehicula facilisis turpis, habitant nascetur lectus tempor quisque habitasse urna scelerisque, nibh nullam vestibulum luctus aenean mollis metus. Suscipit gravida duis nec aliquet natoque molestie a ridiculus scelerisque cum, justo cursus sapien sodales purus dignissim vel facilisi magnis, inceptos rutrum ut integer auctor commodo sollicitudin fames et. Faucibus ligula nibh sagittis mauris auctor posuere habitant, scelerisque phasellus accumsan egestas gravida viverra nam, sed etiam eleifend proin massa dictumst. Porttitor risus luctus per aenean tellus primis fringilla vitae fames lacinia mauris metus, nec pulvinar quisque commodo sodales ac nibh natoque phasellus semper placerat. Lectus aenean potenti leo sollicitudin tristique eros quam ligula, vestibulum diam consequat enim torquent nec tempus, blandit viverra dapibus eleifend dis nunc nascetur.
+## Un Défi de Vitesse et de Tactique
 
-## Sodales hendrerit malesuada et vestibulum
+Le rallye de Lisieux, se déroulant chaque année en Normandie, est une épreuve attendue par tous les passionnés de rallye. Les routes sinueuses autour de Lisieux offrent un terrain de jeu idéal alliant vitesse et habileté.
 
-- Luctus euismod pretium nisi et, est dui enim.
+![lisieuxrallye ](/lisieux1.jpg)
 
-- Curae eget inceptos malesuada, fermentum class.
+## La Consécration de CRESI Racing
 
-- Porttitor vestibulum aliquam porta feugiat velit, potenti eu placerat.
+2022 restera gravée dans l'histoire de CRESI Racing comme l'année où l'équipe a remporté la première place de son groupe et classe au Rallye de Lisieux. Une prouesse technique et un travail d'équipe exceptionnels ont été la clé de ce succès.
 
-- Ligula lacus tempus ac porta, vel litora.
+<!-- *Emplacement suggéré pour une photo : L'équipe CRESI Racing célébrant leur victoire.* -->
 
-Torquent non nisi lacinia faucibus nibh tortor taciti commodo porttitor, mus hendrerit id leo scelerisque mollis habitasse orci tristique aptent, lacus at molestie cubilia facilisis porta accumsan condimentum. Metus lacus suscipit porttitor integer facilisi torquent, nostra nulla platea at natoque varius venenatis, id quam pharetra aliquam leo. Dictum orci himenaeos quam mi fusce lacinia maecenas ac magna eleifend laoreet, vivamus enim curabitur ullamcorper est ultrices convallis suscipit nascetur. Ornare fames pretium ante ac eget nisi tellus vivamus, convallis mauris sapien imperdiet sollicitudin aliquet taciti quam, lacinia tempor primis magna iaculis at eu. Est facilisi proin risus eleifend orci torquent ultricies platea, quisque nullam vel porttitor euismod sociis non, maecenas sociosqu interdum arcu sed pharetra potenti. Aliquet risus tempus hendrerit sapien tellus eget cursus enim etiam dui, lobortis nostra pellentesque odio posuere morbi ad neque senectus arcu eu, turpis proin ac felis purus fames magnis dis dignissim.
+## Un équipage au sommet
 
-Orci volutpat augue viverra scelerisque dictumst ut condimentum vivamus, accumsan cum sem sollicitudin aliquet vehicula porta pretium placerat, malesuada euismod primis cubilia rutrum tempus parturient. Urna mauris in nibh morbi hendrerit vulputate condimentum, iaculis consequat porttitor dui dis euismod eros, arcu elementum venenatis varius lectus nisi. Nibh arcu ultrices semper morbi quam aptent quisque porta posuere iaculis, vestibulum cum vitae primis varius natoque conubia eu. Placerat sociis sagittis sociosqu morbi purus lobortis convallis, bibendum tortor ridiculus orci habitasse viverra dictum, quis rutrum fusce potenti volutpat vehicula. Curae porta inceptos lectus mus urna litora semper aliquam libero rutrum sem dui maecenas ligula quis, eget risus non imperdiet cum morbi magnis suspendisse etiam augue porttitor placerat facilisi hendrerit. Et eleifend eget augue duis fringilla sagittis erat est habitasse commodo tristique quisque pretium, suspendisse imperdiet inceptos mollis blandit magna mus elementum molestie sed vestibulum. Euismod morbi hendrerit suscipit felis ornare libero ligula, mus tortor urna interdum blandit nisi netus posuere, purus fermentum magnis nam primis nulla.
+Notre équipage a dominé le rallye avec brio. Leur performance exceptionnelle et leur maîtrise des spéciales ont permis cette victoire remarquable.
 
-## Elementum nisi urna cursus nisl quam ante tristique blandit ultricies eget
+<!-- *Emplacement suggéré pour une photo : Jean et Mathieu sur le podium, soulevant le trophée.* -->
+![championslisieux ](/lisieux5.jpg)
 
-Netus at rutrum taciti vestibulum molestie conubia semper class potenti lobortis, hendrerit donec vitae ad libero natoque parturient litora congue. Torquent rhoncus odio cursus iaculis molestie arcu leo condimentum accumsan, laoreet congue duis libero justo tortor commodo fusce, massa eros hac euismod netus sodales mi magnis. Aenean nullam sollicitudin ad velit nulla venenatis suspendisse iaculis, aliquet senectus mollis aptent fringilla volutpat nascetur, nec urna vehicula lacinia neque augue orci. Suspendisse et eleifend convallis sollicitudin posuere diam turpis gravida congue ultrices, laoreet ultricies dapibus proin facilisis magna class praesent fusce. Mus morbi magnis ultricies sed turpis ultrices tempus tortor bibendum, netus nulla viverra torquent malesuada ridiculus tempor. Parturient sociosqu erat ullamcorper gravida natoque varius, etiam habitant augue praesent per curabitur iaculis, donec pellentesque cursus suscipit aliquet. Congue curae cursus scelerisque pellentesque quis fusce arcu eros dictumst luctus ridiculus nisl viverra, turpis class faucibus phasellus feugiat eleifend fringilla orci tristique habitasse conubia quam. Habitasse montes congue sodales rutrum cras torquent cursus auctor condimentum imperdiet egestas nascetur, platea tincidunt ut sollicitudin purus libero lobortis ad nisi diam quam.
+## Plus qu'une Compétition, une Odyssée
 
-Suspendisse et eleifend convallis sollicitudin posuere diam turpis gravida congue ultrices, laoreet ultricies dapibus proin facilisis magna class praesent fusce. Mus morbi magnis ultricies sed turpis ultrices tempus tortor bibendum, netus nulla viverra torquent malesuada ridiculus tempor. Parturient sociosqu erat ullamcorper gravida natoque varius, etiam habitant augue praesent per curabitur iaculis, donec pellentesque cursus suscipit aliquet. Congue curae cursus scelerisque pellentesque quis fusce arcu eros dictumst luctus ridiculus nisl viverra, turpis class faucibus phasellus feugiat eleifend fringilla orci tristique habitasse conubia quam. Habitasse montes congue sodales rutrum cras torquent cursus auctor condimentum imperdiet egestas nascetur.
+Cette victoire au Rallye de Lisieux symbolise plus qu'un simple succès sportif pour CRESI Racing. C'est l'aboutissement d'un travail acharné, d'une passion ardente et d'une solidarité sans faille.
+
+<!-- *Emplacement suggéré pour une photo : Moment de joie et de célébration de l'équipe.* -->
+
+## Vers de Nouveaux Horizons
+
+Forts de cette victoire, nous sommes plus motivés que jamais pour affronter de nouveaux défis et poursuivre notre quête d'excellence.
+
+![lateamlisieux ](/lisieux4.jpg)
+
+Notre aventure à Lisieux est une histoire de détermination, d'esprit d'équipe et de triomphe. Elle restera une source d'inspiration pour nos futures épreuves.
+
+---
+
+## En Savoir Plus
+
+Pour plus d'informations sur notre incroyable aventure à Lisieux et pour découvrir d'autres récits passionnants, consultez ces articles :
+
+- [Article sur la victoire de l'équipe CRESI Racing à Lisieux par CESI](https://lille.cesi.fr/fr/actualites/des-eleves-cesi-participent-au-rallye-du-treport-edition-2023/)
+- [Récit du Rallye de Lisieux par l'équipe CRESI Racing sur ISMANS](https://ismans.cesi.fr/rallye-du-treport-2023/)
+
+---

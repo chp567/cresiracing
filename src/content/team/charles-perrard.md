@@ -1,10 +1,10 @@
 ---
 draft: false
 name: "Charles PERRARD"
-title: "Conducteur"
+title: "Pilote"
 avatar: {
-    src: "../../public/charles1.jpg",
+    src: "/charles1.jpg",
     alt: "charles-perrard"
 }
-publishDate: "2023-12-09"
+publishDate: "2024-01-01"
 ---
